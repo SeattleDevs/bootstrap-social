@@ -1,14 +1,3 @@
-/*
- * Social Buttons for Bootstrap
- *
- * Copyright 2013-2016 Panayiotis Lipiridis
- * Licensed under the MIT License
- *
- * https://github.com/lipis/bootstrap-social
- */
-
-// bootstrap-social support for bootstrap 4.x
-// <https://github.com/lipis/bootstrap-social/issues/123>
 $btn-padding-y: 0.5rem;
 $btn-padding-y-lg: 0.75rem;
 $btn-padding-y-sm: 0.25rem;
@@ -26,8 +15,10 @@ $bs-height-sm: floor($btn-line-height + $btn-padding-x-sm * 2);
 $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
 
 .btn-social {
+  display: block;  // Ensures the button takes up full width
+  width: 100%;     // Ensures full-width display
   position: relative;
-  padding-left: $bs-height-base + $padding-base-horizontal;
+  padding-left: calc(#{$bs-height-base} + #{$padding-base-horizontal});
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
@@ -39,14 +30,14 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
     top: 0;
     bottom: 0;
     width: $bs-height-base;
-    line-height: $bs-height-base + 2;
+    line-height: calc(#{$bs-height-base} + 2);
     font-size: 1.6em;
     text-align: center;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
   }
 
   &.btn-lg {
-    padding-left: $bs-height-lg + $padding-large-horizontal;
+    padding-left: calc(#{$bs-height-lg} + #{$padding-large-horizontal});
 
     > :first-child {
       line-height: $bs-height-lg;
@@ -56,7 +47,7 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
   }
 
   &.btn-sm {
-    padding-left: $bs-height-sm + $padding-small-horizontal;
+    padding-left: calc(#{$bs-height-sm} + #{$padding-small-horizontal});
 
     > :first-child {
       line-height: $bs-height-sm;
@@ -66,7 +57,7 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
   }
 
   &.btn-xs {
-    padding-left: $bs-height-xs + $padding-small-horizontal;
+    padding-left: calc(#{$bs-height-xs} + #{$padding-small-horizontal});
 
     > :first-child {
       line-height: $bs-height-xs;
@@ -129,7 +120,7 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
   }
 }
 
-@mixin btn-social($color-bg, $color: null) {
+@mixin btn-social($color-bg, $color: #fff) {
   @if $color {
     color: $color;
   }
@@ -194,7 +185,7 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
 }
 
 .btn-reddit {
-  @include btn-social(#eff7ff);
+  @include btn-social(#eff7ff, #000);
 }
 
 .btn-soundcloud {
@@ -226,15 +217,15 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
 }
 
 .btn-amazon {
-  @include btn-social(#FF9900, #232F3E);
+  @include btn-social(#FF9900, #000);
 }
 
 .btn-patreon {
-  @include btn-social(#F96854, #052D49);
+  @include btn-social(#F96854);
 }
 
 .btn-untappd {
-  @include btn-social(#ffc000);
+  @include btn-social(#ffc000, #000);
 }
 
 .btn-gitlab {
@@ -244,3 +235,4 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
 .btn-whatsapp {
   @include btn-social(#25D366, #fff);
 }
+

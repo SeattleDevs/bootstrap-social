@@ -6,7 +6,7 @@ Social Buttons made in pure CSS based on
 [Bootstrap](http://twbs.github.io/bootstrap/) and
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/)!
 
-[Check the live demo!](http://niftylettuce.com/bootstrap-social/)
+[Check the live demo!](https://seattledevs.github.io/bootstrap-social)
 
 Installation
 ------------
