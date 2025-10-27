@@ -140,6 +140,10 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
   @include btn-social(#1087dd);
 }
 
+.btn-discord {
+  @include btn-social(#5865f2);
+}
+
 .btn-facebook {
   @include btn-social(#3b5998);
 }
@@ -157,7 +161,7 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
 }
 
 .btn-google {
-  @include btn-social(#dd4b39);
+  @include btn-social(#d93b27, #fff);
 }
 
 .btn-instagram {
@@ -169,7 +173,7 @@ $bs-height-xs: floor($btn-line-height + $btn-padding-x-sm * 2);
 }
 
 .btn-microsoft {
-  @include btn-social(#2672ec);
+  @include btn-social(#2f2f2f);
 }
 
 .btn-odnoklassniki {

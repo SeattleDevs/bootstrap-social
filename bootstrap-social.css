@@ -145,6 +145,24 @@
   --bs-btn-disabled-border-color: #1087dd;
 }
 
+.btn-discord {
+  color: #fff;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #5865f2;
+  --bs-btn-border-color: #5865f2;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(74.8, 85.85, 205.7);
+  --bs-btn-hover-border-color: rgb(70.4, 80.8, 193.6);
+  --bs-btn-focus-shadow-rgb: 113, 124, 244;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(70.4, 80.8, 193.6);
+  --bs-btn-active-border-color: rgb(66, 75.75, 181.5);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #5865f2;
+  --bs-btn-disabled-border-color: #5865f2;
+}
+
 .btn-facebook {
   color: #fff;
   --bs-btn-color: #fff;
@@ -219,20 +237,20 @@
 
 .btn-google {
   color: #fff;
-  --bs-btn-color: #000;
-  --bs-btn-bg: #dd4b39;
-  --bs-btn-border-color: #dd4b39;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: rgb(226.1, 102, 86.7);
-  --bs-btn-hover-border-color: rgb(224.4, 93, 76.8);
-  --bs-btn-focus-shadow-rgb: 188, 64, 48;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: rgb(227.8, 111, 96.6);
-  --bs-btn-active-border-color: rgb(224.4, 93, 76.8);
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #d93b27;
+  --bs-btn-border-color: #d93b27;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(184.45, 50.15, 33.15);
+  --bs-btn-hover-border-color: rgb(173.6, 47.2, 31.2);
+  --bs-btn-focus-shadow-rgb: 223, 88, 71;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(173.6, 47.2, 31.2);
+  --bs-btn-active-border-color: rgb(162.75, 44.25, 29.25);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #dd4b39;
-  --bs-btn-disabled-border-color: #dd4b39;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #d93b27;
+  --bs-btn-disabled-border-color: #d93b27;
 }
 
 .btn-instagram {
@@ -273,20 +291,20 @@
 
 .btn-microsoft {
   color: #fff;
-  --bs-btn-color: #000;
-  --bs-btn-bg: #2672ec;
-  --bs-btn-border-color: #2672ec;
-  --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: rgb(70.55, 135.15, 238.85);
-  --bs-btn-hover-border-color: rgb(59.7, 128.1, 237.9);
-  --bs-btn-focus-shadow-rgb: 32, 97, 201;
-  --bs-btn-active-color: #000;
-  --bs-btn-active-bg: rgb(81.4, 142.2, 239.8);
-  --bs-btn-active-border-color: rgb(59.7, 128.1, 237.9);
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #2f2f2f;
+  --bs-btn-border-color: #2f2f2f;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(39.95, 39.95, 39.95);
+  --bs-btn-hover-border-color: rgb(37.6, 37.6, 37.6);
+  --bs-btn-focus-shadow-rgb: 78, 78, 78;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(37.6, 37.6, 37.6);
+  --bs-btn-active-border-color: rgb(35.25, 35.25, 35.25);
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #2672ec;
-  --bs-btn-disabled-border-color: #2672ec;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #2f2f2f;
+  --bs-btn-disabled-border-color: #2f2f2f;
 }
 
 .btn-odnoklassniki {
